@@ -1,12 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>Hello World</h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body class="bg-doted">
+  <nav class="fixed-top bg-dark" id="myNavbar">
+    <div class="row justify-content-center pt-3 pb-2 px-2">
+      <div class="col-sm-4 col-md-3 col-lg-2 col-xl-1">
+        <a href="#" class="h3 main-link">Portfolio</a>
+      </div>
+      <div class="col-sm-8 col-md-6 col-lg-4">
+        <ul class="nav nav-masthead justify-content-end">
+          <li class="nav-item">
+            <a href="#stack" class="nav-link fw-bold py-1 px-1">Stack</a>
+          </li>
+          <li class="nav-item">
+            <a href="#qualification" class="nav-link fw-bold py-1 px-1">Qualification</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link fw-bold py-1 px-1">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contacts" class="nav-link fw-bold py-1 px-1">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <header class="row">
+      <div class="text-center col align-self-center">
+        <h1>Hi, my name is Ivan.</h1>
+        <br />
+        <p class="lead p-2">
+          I am a beginner backend developer from Moscow region, Russia.
+        </p>
+      </div>
+      <div class="button-pos col text-center">
+        <a href="#stack">
+          <button class="next-button" type="button">next</button>
+        </a>
+      </div>
+    </header>
+    <hr class="my-5 mx-auto w-50" />
+    <main>
+      <section class="row align-items-center text-center" id="stack">
+        <article>
+          <h3>My tech stack for development</h3>
+          <br />
+          <div class="row logo-sep justify-content-center">
+            <div class="col-md-2 col-sm-4">
+              <figure>
+                <img src="images/python.svg" alt="python" class="logo" />
+                <figcaption class="lead pt-2">Python</figcaption>
+              </figure>
+            </div>
+            <div class="col-md-2 col-sm-4">
+              <figure>
+                <img src="images/django.svg" alt="django" class="logo" />
+                <figcaption class="lead pt-2">Django</figcaption>
+              </figure>
+            </div>
+            <div class="col-md-2 col-sm-4">
+              <figure>
+                <img src="images/DRF.png" alt="Django Rest framework" class="logo" />
+                <figcaption class="lead pt-2">DRF</figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="row logo-sep justify-content-center">
+            <div class="col-md-2 col-sm-4">
+              <figure>
+                <img src="images/docker.svg" alt="Docker" class="logo" />
+                <figcaption class="lead pt-2">Docker</figcaption>
+              </figure>
+            </div>
+            <div class="col-md-2 col-sm-4">
+              <figure>
+                <img src="images/PostgreSQL.svg" alt="PostgreSQL" class="logo" />
+                <figcaption class="lead pt-2">PostgreSQL</figcaption>
+              </figure>
+            </div>
+            <div class="col-md-2 col-sm-4">
+              <figure>
+                <img src="images/Git_icon.svg" alt="Git" class="logo" />
+                <figcaption class="lead pt-2">Git</figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="row logo-sep justify-content-center">
+            <div class="col-md-2 col-sm-4">
+              <figure>
+                <img src="images/Bash_Logo_Colored.svg" alt="Bash" class="logo" />
+                <figcaption class="lead pt-2">Bash</figcaption>
+              </figure>
+            </div>
+            <div class="col-md-2 col-sm-4">
+              <figure>
+                <img src="images/HTML5_logo_and_wordmark.svg" alt="HTML5" class="logo" />
+                <figcaption class="lead pt-2">HTML</figcaption>
+              </figure>
+            </div>
+            <div class="col-md-2 col-sm-4">
+              <figure>
+                <img src="images/CSS3_logo_and_wordmark.svg" alt="CSS3" class="logo" />
+                <figcaption class="lead pt-2">CSS</figcaption>
+              </figure>
+            </div>
+          </div>
+        </article>
+      </section>
+      <hr class="my-5 mx-auto w-50" />
+      <section class="row justify-content-center align-items-center text-center" id="qualification">
+        <article class="col-md-8 col-lg-6">
+          <h3>Qualification</h3>
+          <br />
+          <p class="lead pt-2">
+            I graduated from the Moscow State Technical University "MAMI".
+            Faculty "Automobiles and Tractors". Specialty "Service of
+            transport and technological machines and equipment". Qualification
+            "Engineer".
+          </p>
+          <br />
+          <br />
+          <h5>I have completed the following courses:</h5>
+          <br />
+          <div class="bdr">
+            <table>
+              <tr>
+                <th class="bdr-right">Course name</th>
+                <th class="bdr-right">Lecturer</th>
+                <th>url*</th>
+              </tr>
+              <tr>
+                <td>"Generation Python": a course for beginners</td>
+                <td>BEEGEEK School</td>
+                <td>
+                  <a href="
+                    https://stepik.org/cert/1320698">cert</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Programming in Python</td>
+                <td>Bioinformatics Institute</td>
+                <td><a href="
+                    https://stepik.org/cert/1362522">cert</a></td>
+              </tr>
+              <tr>
+                <td>Python: Basics and Applications</td>
+                <td>Bioinformatics Institute</td>
+                <td><a href="
+                    https://stepik.org/cert/1388391">cert</a></td>
+              </tr>
+              <tr>
+                <td>Introduction to Linux</td>
+                <td>Bioinformatics Institute</td>
+                <td><a href="
+                    https://stepik.org/cert/1479783 ">cert</a></td>
+              </tr>
+              <tr>
+                <td>Operating Systems</td>
+                <td>Computer Science Center</td>
+                <td>
+                  <a href="https://stepik.org/course/1780/info">info</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Introduction to Networking</td>
+                <td>Far Eastern Federal University</td>
+                <td>
+                  <a href="
+                    https://stepik.org/cert/1453429">cert</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Web Development for Beginners: HTML and CSS</td>
+                <td>ITC</td>
+                <td>
+                  <a href="https://stepik.org/course/38218/info">info</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Interactive SQL Trainer</td>
+                <td>Far Eastern Federal University</td>
+                <td>
+                  <a href="https://stepik.org/course/63054/info">info</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Compute management(Docker)</td>
+                <td>Bioinformatics Institute</td>
+                <td>
+                  <a href="https://stepik.org/course/1612/info">info</a>
+                </td>
+              </tr>
+            </table>
+            <p class="my-1"><small class="text-muted"><em>* cert - certificate, info - course information</em></small>
+            </p>
+          </div>
+          <div class="row justify-content-center pt-3">
+            <div class="col-md-2">
+              <img src="images/Certificate/stepik-certificate-512-1180e9d.pdf" alt="" class="img-fluid" />
+        </article>
+      </section>
+      <hr class="my-5 mx-auto w-50" />
+      <section class="row align-items-center" id="projects">
+        <article>
+          <h3 class="text-center">Projects</h3>
+          <br />
+          <div class="row justify-content-center px-2">
+            <div class="card col-md-3 m-3 card-shadow text-center">
+              <div class="card-body">
+                <h5 class="card-title">Notebook</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Application for storing user notes</h6>
+                <p class="font-monospace">The application allows registered users to create, store and view their notes.
+                  The user has the ability to create categories and distribute their notes according to them.
+                  Implemented search for notes by category, phrase, date or all together.</p>
+              </div>
+              <div class="card-footer bg-transparent">
+                <a href="https://github.com/p-rayne/notebook-notes" class="card-link">github</a>
+                <!-- <a href="#" class="card-link">Another link</a> -->
+              </div>
+            </div>
+            <div class="card col-md-3 m-3 text-center card-shadow">
+              <div class="card-body">
+                <h5 class="card-title">Blog API</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Blog backend with REST API</h6>
+                <p class="font-monospace">The API provides the following features:
+                  creating a user, creating posts, viewing user posts, viewing the number of user posts, subscribing and
+                  unsubscribing from user posts, creating a feed of posts, etc.
+                  API documentation can be found on the project page on github.</p>
+              </div>
+              <div class="card-footer bg-transparent">
+                <a href="https://github.com/p-rayne/blog-API" class="card-link">github</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <hr class="my-5 mx-auto w-50" />
+      <section class="row align-items-center text-center" id="contacts">
+        <article class="col">
+          <h3>Contacts</h3>
+          <br />
+          <p class="lead"><img src="images/telegram.svg" class="contact-icon" alt="" /><a
+              href="https://telegram.me/privaterayne">telegram</a></p>
+          <p class="lead"><img src="images/envelope.svg" class="contact-icon" alt="" /> <a
+              href="mailto:iloginauto@gmail.com">iloginauto@gmail.com</a></p>
+        </article>
+      </section>
+    </main>
+    <footer class="mt-auto text-center">
+      <p>&#169; p-rayne 2022</p>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var myScrollSpy = new bootstrap.ScrollSpy(document.body, {
+        target: "#myNavbar",
+        offset: 0,
+      });
+    });
+  </script>
+</body>
+
 </html>
